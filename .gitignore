@@ -1,0 +1,39 @@
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+
+
+# Docker
+docker-compose.override.yml
+
+# Environment
+.env
+.env.local
+
+# IDE
+.vscode/
+.cursor/
+.idea/
+
+# Other
+.DS_Store
+
+
+# HuggingFace models
+/pretrained/
+pretrained/
+models/
+*.bin
+*.h5
+*.pth
+*.pt
+
+# Ignore large models
+*.safetensors
+*.dll
+*.lib
